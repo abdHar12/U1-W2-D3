@@ -225,3 +225,7 @@ console.log(starWarsCharacters.length);
 let ranElement =
   starWarsCharacters[Math.floor(Math.random() * starWarsCharacters.length)];
 console.table(ranElement);
+ranElement = Object.values(
+  starWarsCharacters[Math.floor(Math.random() * starWarsCharacters.length)]
+);
+console.log(ranElement);
